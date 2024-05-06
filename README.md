@@ -1,4 +1,24 @@
-# so you want to write a follower
+# A npm changes follower
+
+Note: This repo is derived from https://github.com/npm/registry-follower-tutorial to monitor project changes from the Npm registry. To better support more complete function and easy-to-use style, we add `new_index.js`.
+
+## What's new?
+- a `new_index.js` file 
+
+## How to use?
+
+You may modify this project on your own means.
+
+```javascript
+node new_index.js
+```
+
+## Bad things
+- can not follow newest seq id in real-time.
+- can not terminate actively. 
+
+# The following is its original <font face="KAI">README</font> description:
+
 > ch-ch-ch-ch-changes
 
 This tutorial will teach you how to write a generic boilerplate

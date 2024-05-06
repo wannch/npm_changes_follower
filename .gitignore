@@ -1,1 +1,4 @@
 node_modules
+npm_changes
+db_info.json
+sequence_ids.txt
